@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: 'Arima', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    font-weight: 700px;
+    margin-left: 30px;
+}
+
+.navbar {
+
+    margin: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.camera-container {
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.h1-header {
+    font-size: 50px;
+}
+
+.header-p {
+    font-weight: 900;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.img-container {
+
+    background-size: contain;
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+.header-btn {
+    margin-top: 10px;
+    color: wheat;
+    background-color: rgb(243, 21, 95);
+    padding: 10px 10px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    margin: 80px 150px;
+
+}
+
+.popular-section {
+    text-align: center;
+}
+
+.cards-div {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.card-container {
+
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(199, 199, 199);
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.tag {
+    margin: 10px;
+}
+
+.star {
+    color: rgb(255, 208, 0);
+}
+
+.see-more {
+    text-align: right;
+    color: rgb(226, 21, 175);
+    font-weight: 900;
+    margin: 20px 200px;
+
+
+}
+
+#foter-btn {
+    margin-top: 10px;
+    color: wheat;
+    background-color: rgb(243, 21, 95);
+    padding: 10px 10px;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+}
+
+.foter-section {
+
+    margin: 30px;
+}
+
+.footer-section {
+    text-align: center;
+    background-color: rgb(16, 0, 41);
+    color: white;
+    padding: 20px;
+}
+
+.social-icon {
+    padding: 7px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: rgb(1, 1, 19);
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .camera-container {
+        flex-direction: column-reverse;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .navbar {
+        align-items: center;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .section {
+        margin: 50px;
+    }
+
+    .logo-container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .logo-container img {
+        width: 60px;
+        padding: 15px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .card-container {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 5px 5px 5px 5px rgb(199, 199, 199);
+    }
+
+    .cards-div {
+        width: 100%;
+        padding: 10px;
+        grid-template-columns: 1fr;
+        margin: 10px 0px;
+    }
+
+    .card-container img {
+        width: 100%;
+    }
+
+    .camera-container {
+        text-align: center;
+        margin: 0;
+    }
+
+    .camera-container img {
+        width: 100%;
+    }
+
+    #foter-btn {
+        margin: 30px;
+    }
+}
